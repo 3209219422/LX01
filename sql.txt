@@ -1,0 +1,11 @@
+DROP DATABASE IF EXISTS Works
+CREATE DATABASE Works DFFAULT CHARSET=GBK;
+USE Works；
+CREATE TABLE UserInfo
+(
+UserName nvarchar(50) Primary key,
+Password nvarchar(50) not null,
+QQ nvarchar(12),
+Email nvarchar(10) not null,
+UserImg nvarchar(250)
+);
